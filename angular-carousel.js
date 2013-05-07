@@ -1,4 +1,6 @@
-'use strict';
+'use strict'; 
+
+angular.module('angular-carousel', ['ngMobile'])
 
 angular.module('angular-carousel')
   .directive('ngCarousel', ['$swipe', function($swipe) {
